@@ -2,6 +2,12 @@
     <span class="title">Учасники</span>
 </h1>
 
+<% flash.each do |type, msg| %>
+  <div class="alert alert-info">
+    <%= msg %>
+  </div>
+<% end %>
+
 <p>
     <h1>
         Кількість учасників: <%= @count %>
