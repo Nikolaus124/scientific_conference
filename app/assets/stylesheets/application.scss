@@ -1,0 +1,297 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+
+ html, body {
+    height: 100%;
+    margin: 0px;
+    font: normal 0.8em 'Open Sans', arial, sans-serif;
+    color: black;
+    padding: 0;
+    background-color: #efefef;
+    background: url('background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+#wrapper {
+    border: 0;
+    margin: auto;
+    width: 1000px;
+    height: 100%;
+}
+
+table {
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.bluerow {
+    color: white;
+    border: 1px solid white;
+    height: 42px;
+    text-align: center;
+    background-color: #0489B1;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.cell4logo {
+    border: 1px solid white;
+    background-color: white;
+    border-top: 1px solid #0489B1;
+    border-bottom: 1px solid #0489B1;
+    text-align: center;
+}
+
+#header {
+    height: 158px;
+}
+
+.logotable {
+    border: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.cellimage {
+    width: 200px;
+}
+
+.image {
+    /* height: 140px; */
+    /* margin-top: 5px; */
+    margin-left: 25px;
+    /* padding: 10px 20px; */
+}
+
+#confname {
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+    text-align: center;
+    color: gray;
+    line-height: 1.2em;
+}
+
+#seminar {
+    font-size: 21px;
+}
+
+#seminarname {
+    font-size: 22px;
+    color: #0489B1;
+}
+
+#rightlogoimage {
+    /* margin-top: 4px; */
+    /* border-radius: 100px; */
+    margin-left: 0;
+    margin-right: 30px;
+    height: 135px;
+}
+
+.bluerow {
+    color: white;
+    border: 1px solid white;
+    height: 42px;
+    text-align: center;
+    background-color: #0489B1;
+}
+
+#main {
+    height: 100%;
+    border: 0;
+    width: 100%;
+}
+
+#menuarea {
+    width: 313px;
+    border-right: 1px solid #0489B1;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+div {
+    display: block;
+}
+
+.urbangreymenu {
+    width: 290px;
+    /* margin-top: -13px; */
+    margin-left: 8px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.urbangreymenu .headerbar {
+    font: bold 16px "Open Sans";
+    color: white;
+    background: #0489B1;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    padding: 7px 0 7px 0px;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.urbangreymenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.urbangreymenu ul li a {
+    font: normal 13px 'Open Sans';
+    color: black;
+    background: #F1F1F1;
+    display: block;
+    padding: 5px 0;
+    line-height: 17px;
+    letter-spacing: 1px;
+    padding-left: 11px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#menu2 {
+    margin-top: 10px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#main h1 {
+    margin: 20px 10px 15px;
+    margin: 3px 20px 0;
+    margin: 6px 10px;
+    font-style: normal;
+    font-size: 16px;
+    color: gray;
+}
+
+#main .title {
+    padding: 7px 30px 7px;
+    background-color: #0489B1;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+}
+
+#footer {
+    font-style: normal;
+    background-color: #0e64a1;
+}
+
+#author {
+    margin-top: -10px;
+}
+
+.lang {
+    position: relative;
+    top: 2px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+}
