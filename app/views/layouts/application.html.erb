@@ -13,115 +13,27 @@
     <table id="wrapper" cellspacing="0" cellpadding="0">
       <tbody>
         <tr>
-          <td class="bluerow">
-            <table style="width:100%">
-              <tbody>
-                <tr>
-                  <td>
-                    <h2 style="position:relative;left:52px;">
-                      Чернівці, 22-24 вересня 2023 року
-                    </h2>
-                  </td>
-
-                  <td style="width:100px;text-align:right;">
-                    <!--
-                    <a href="#" title="Українська мова">
-                      <img src="<%= asset_path('ukr.png') %>" class="lang">
-                    </a>
-                    &nbsp;
-                    <a href="#" title="English language">
-                      <img src="<%= asset_path('eng.png') %>" class="lang">
-                    </a>
-                    &nbsp;&nbsp;
-                    -->
-                    <p>Eng</p>
-                    <p>Ukr</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
+          <%= render :partial => 'shared/top_row' %>
         </tr>
-
 
         <tr>
-          <td class="cell4logo" id="header">
-            <table class="logotable" cellspacing="0">
-              <tbody>
-                <tr>
-                  <td class="cellimage" align="center">
-                    <img class="image" src="<%= asset_path('chnu.png') %>" alt style="margin-top:-3px;">
-                  </td>
-
-                  <td>
-                    <h2 id="confname">
-                      <span id="seminar">
-                        Міжнародна наукова конференція
-                      </span>
-                      <br>
-                      <span id="seminarname">
-                        "Прикладна математика та інформаційні технології"
-                      </span>
-                      <br>
-                      присвячена 60-річчю
-                      <br>
-                      кафедри прикладної математики
-                      <br>
-                      та інформаційних технологій
-                    </h2>
-                  </td>
-
-                  <td class="cellimage" align="center">
-                    <img class="image" id="rightlogoimage" src="<%= asset_path('math.png') %>" alt>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
+          <%= render :partial => 'shared/header' %>
         </tr>
-
 
         <tr>
           <td class="bluerow">
             <h2>
-              Чернівецький національний університет імені Юрія Федьковича, факультет математики та інформатики
+              <%= I18n.t('university-name') %>
             </h2>
           </td>
         </tr>
-
 
         <tr>
           <td class="cell4logo" valign="top">
             <table cellspacing="5" cellpadding="0" id="main">
               <tbody>
                 <tr>
-                  <td valign="top" id="menuarea">
-                    <div class="urbangreymenu">
-                      <h3 class="headerbar">Конференція</h3>
-                      <ul class="uppercase">
-                        <li><a href="#">Головна сторінка / Новини</a></li>    
-                        <li><a href="#">Науковий комітет</a></li>  
-                        <li><a href="#">Комітет з інформаційних технологій</a></li>
-                        <li><a href="#">Організаційний комітет</a></li>
-                        <li><a href="#">Напрямки роботи конференції</a></li>
-                        <li><a href="#">Важливі дати</a></li>
-                        <li><a href="#">Інформаційні повідомлення</a></li>
-                        <li><%= link_to "Учасники", { :controller => :members, :action => :index } %></li>
-                        <li><a href="#">Оформлення та подача праць</a></li>
-                        <li><a href="#">Програма конференції</a></li>
-                        <li><a href="#">Матерiали конференції</a></li>
-                        <li><a href="#">Контакти</a></li>
-                      </ul>
-                      <h3 class="headerbar" id="menu2">Корисні посилання</h3>
-                      <ul>
-                        <li><a href="http://chnu.edu.ua/" target="_blank">Чернівецький національний університет імені Юрія Федьковича</a></li>
-                        <li><a href="http://fmi.org.ua/" target="_blank">Факультет математики та <br>інформатики</a></li>
-                        <li><a href="http://pmit.fmi.org.ua/" target="_blank">Кафедра прикладної математики <br>та інформаційних технологій</a></li>
-                        <li><a href="http://bmj.fmi.org.ua/" target="_blank">Буковинський математичний <br>журнал</a></li>
-                        <li><a href="https://science.lpnu.ua/uk/mmc" target="_blank">Mathematical Modeling and <br>Computing</a></li>
-                      </ul>
-                    </div>
-                  </td>
+                  <%= render :partial => 'shared/menu' %>
 
                   <td valign="top">
                     <%= yield %>
@@ -132,10 +44,9 @@
           </td>
         </tr>
 
-
         <tr>
           <td class="bluerow" id="footer">
-            <h3>© 2022, Кафедра прикладної математики та інформаційних технологій</h3>
+            <h3><%= I18n.t('bottom-row') %></h3>
           </td>
         </tr>
       </tbody>

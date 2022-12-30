@@ -16,6 +16,8 @@ class MembersController < ApplicationController
       @member = Member.new(params[:member])
 
       if @member.save
+        MemberMailer.welcome_email(@member).deliver
+
         flash.alert = 'Успішна реєстрація!'
         redirect_to action: "index"
       else

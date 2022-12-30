@@ -1,33 +1,34 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  top-row: Chernivtsi, 22-24 September 2023 year
+  bottom-top:
+    international-scient-conf: International scientific conference
+    seminarname: Applied mathematics and information technologies
+    dedicated_to: dedicated to the 60th anniversary
+    chair: department of applied mathematics
+    inform_technologies: and information technologies
+  university-name: Yuri Fedkovich Chernivtsi National University, Faculty of Mathematics and Informatics
+  menu_bar:
+    top-bar:
+      title: CONFERENCE
+      main-page: HOME PAGE / NEWS
+      scientific-commitee: SCIENTIFIC COMMITTEE
+      inform-tech-commitee: COMMITTEE ON INFORMATION TECHNOLOGIES
+      org-commitee: ORGANIZATIONAL COMMITTEE
+      direction-work-commitee: DIRECTIONS OF WORK OF THE CONFERENCE
+      important-dates: IMPORTANT DATES
+      inform-messages: INFORMATIONAL MESSAGES
+      members: PARTICIPANTS
+      design-submission-works: FORMATION AND SUBMISSION OF WORKS
+      commitee-program: CONFERENCE PROGRAM
+      commitee-materials: MATERIALS OF THE CONFERENCE
+      contacts: CONTACTS
+    bottom-bar:
+      title: USEFUL LINKS
+      chnu-site: Chernivtsi National University named after Yury Fedkovich
+      fmi-site: Faculty of Mathematics and computer science
+      apply-math-site: Department of Applied Mathematics and information technologies
+      buk-national-journal: Bukovynsky is a mathematician magazine
+      math-modeling: Mathematical Modeling and Computing
+  bottom-row: © 2022, Department of Applied Mathematics and Information Technologies
+
+      

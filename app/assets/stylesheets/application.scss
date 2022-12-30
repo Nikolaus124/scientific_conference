@@ -33,7 +33,7 @@
 
 body {
     display: block;
-    margin: 8px;
+    margin: 0px;
 }
 
 #wrapper {
@@ -74,7 +74,7 @@ tr {
     border: 1px solid white;
     height: 42px;
     text-align: center;
-    background-color: #0489B1;
+    background-color: #292b2c;
 }
 
 td {
@@ -82,11 +82,21 @@ td {
     vertical-align: inherit;
 }
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 .cell4logo {
     border: 1px solid white;
     background-color: white;
-    border-top: 1px solid #0489B1;
-    border-bottom: 1px solid #0489B1;
+    border-top: 1px solid #292b2c;
+    border-bottom: 1px solid #292b2c;
     text-align: center;
 }
 
@@ -127,7 +137,7 @@ td {
 
 #seminarname {
     font-size: 22px;
-    color: #0489B1;
+    color: #000;
 }
 
 #rightlogoimage {
@@ -135,7 +145,7 @@ td {
     /* border-radius: 100px; */
     margin-left: 0;
     margin-right: 30px;
-    height: 135px;
+    
 }
 
 .bluerow {
@@ -143,7 +153,7 @@ td {
     border: 1px solid white;
     height: 42px;
     text-align: center;
-    background-color: #0489B1;
+    background-color: #292b2c;
 }
 
 #main {
@@ -154,7 +164,7 @@ td {
 
 #menuarea {
     width: 313px;
-    border-right: 1px solid #0489B1;
+    border-right: 1px solid #292b2c;
 }
 
 ul {
@@ -192,7 +202,7 @@ h3 {
 .urbangreymenu .headerbar {
     font: bold 16px "Open Sans";
     color: white;
-    background: #0489B1;
+    background: #292b2c;
     margin-bottom: 0;
     text-transform: uppercase;
     padding: 7px 0 7px 0px;
@@ -271,7 +281,7 @@ h1 {
 
 #main .title {
     padding: 7px 30px 7px;
-    background-color: #0489B1;
+    background-color: #292b2c;
     color: white;
     border-radius: 5px;
     text-transform: uppercase;
@@ -281,7 +291,7 @@ h1 {
 
 #footer {
     font-style: normal;
-    background-color: #0e64a1;
+    background-color: #292b2c;
 }
 
 #author {
