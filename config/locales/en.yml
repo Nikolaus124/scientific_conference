@@ -20,20 +20,6 @@ en:
       materials: MATERIALS OF THE CONFERENCE
       contacts: CONTACTS
   menu_bar:
-    top-bar:
-      title: CONFERENCE
-      main-page: HOME PAGE / NEWS
-      scientific-commitee: SCIENTIFIC COMMITTEE
-      inform-tech-commitee: COMMITTEE ON INFORMATION TECHNOLOGIES
-      org-commitee: ORGANIZATIONAL COMMITTEE
-      direction-work-commitee: DIRECTIONS OF WORK OF THE CONFERENCE
-      important-dates: IMPORTANT DATES
-      inform-messages: INFORMATIONAL MESSAGES
-      members: PARTICIPANTS
-      design-submission-works: FORMATION AND SUBMISSION OF WORKS
-      commitee-program: CONFERENCE PROGRAM
-      commitee-materials: MATERIALS OF THE CONFERENCE
-      contacts: CONTACTS
     bottom-bar:
       title: USEFUL LINKS
       chnu-site: Chernivtsi National University named after Yury Fedkovich

@@ -21,19 +21,6 @@ ua:
       contacts: КОНТАКТИ
   menu_bar:
     top-bar:
-      titl: КОНФЕРЕНЦІЯ
-      main-page: ГОЛОВНА СТОРІНКА / НОВИНИ
-      scientific-commitee: НАУКОВИЙ КОМІТЕТ
-      inform-tech-commitee: КОМІТЕТ З ІНФОРМАЦІЙНИХ ТЕХНОЛОГІЙ
-      org-commitee: ОРГАНІЗАЦІЙНИЙ КОМІТЕТ
-      direction-work-commitee: НАПРЯМКИ РОБОТИ КОНФЕРЕНЦІЇ
-      important-dates: ВАЖЛИВІ ДАТИ
-      inform-messages: ІНФОРМАЦІЙНІ ПОВІДОМЛЕННЯ
-      members: УЧАСНИКИ
-      design-submission-works: ОФОРМЛЕННЯ ТА ПОДАЧА ПРАЦЬ
-      commitee-program: ПРОГРАМА КОНФЕРЕНЦІЇ
-      commitee-materials: МАТЕРIАЛИ КОНФЕРЕНЦІЇ
-      contacts: КОНТАКТИ
     bottom-bar:
       title: КОРИСНІ ПОСИЛАННЯ
       chnu-site: Чернівецький національний університет імені Юрія Федьковича
