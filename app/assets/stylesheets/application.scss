@@ -15,7 +15,8 @@
  */
 
 // External libraries
-@import "bootstrap/scss/bootstrap";
+@import "*";
+@import "bootstrap";
 
  html, body {
     height: 100%;
@@ -39,42 +40,42 @@ body {
 #wrapper {
     border: 0;
     margin: auto;
-    width: 1000px;
+    width: 75%;
     height: 100%;
 }
 
 table {
     -webkit-border-horizontal-spacing: 0px;
     -webkit-border-vertical-spacing: 0px;
+    border: 0;
 }
 
 table {
     display: table;
-    border-collapse: separate;
     box-sizing: border-box;
     text-indent: initial;
-    border-spacing: 2px;
-    border-color: grey;
+    border-color: white;
+    border: 0;
 }
 
 tbody {
     display: table-row-group;
     vertical-align: middle;
-    border-color: inherit;
+    border-color: white;
 }
 
 tr {
     display: table-row;
     vertical-align: inherit;
-    border-color: inherit;
+    border-color: white;
 }
 
 .bluerow {
-    color: white;
+    color: #2b0072;
     border: 1px solid white;
     height: 42px;
     text-align: center;
-    background-color: #292b2c;
+    background-color:#2b0072;
 }
 
 td {
@@ -93,10 +94,7 @@ h2 {
 }
 
 .cell4logo {
-    border: 1px solid white;
     background-color: white;
-    border-top: 1px solid #292b2c;
-    border-bottom: 1px solid #292b2c;
     text-align: center;
 }
 
@@ -132,11 +130,11 @@ h2 {
 }
 
 #seminar {
-    font-size: 21px;
+    font-size: 15px;
 }
 
 #seminarname {
-    font-size: 22px;
+    font-size: 18px;
     color: #000;
 }
 
@@ -153,7 +151,7 @@ h2 {
     border: 1px solid white;
     height: 42px;
     text-align: center;
-    background-color: #292b2c;
+    background-color: #2b0072;
 }
 
 #main {
@@ -301,7 +299,7 @@ h1 {
 .lang {
     position: relative;
     top: 2px;
-    background-color: white;
+    background-color: black;
     padding: 2px;
     border-radius: 2px;
 }

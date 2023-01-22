@@ -3,10 +3,10 @@
         <tbody>
             <tr>
                 <td class="cellimage" align="center">
-                    <img class="image" src="<%= asset_path('chnu.png') %>" alt style="margin-top:-3px;">
+                    <img class="image" src="<%= asset_path('math70.png') %>" style="margin-top:-3px;">
                 </td>
                 <td>
-                    <h2 id="confname">
+                    <h2 id="confname" style="font-size: 15px; margin-right: 5%;">
                         <span id="seminar">
                             <%= I18n.t('bottom-top.international-scient-conf') %>
                         </span>
@@ -22,8 +22,11 @@
                         <%= I18n.t('bottom-top.inform_technologies') %>
                     </h2>
                 </td>
-                <td class="cellimage" align="center">
-                    <img class="image" id="rightlogoimage" src="<%= asset_path('math.png') %>" alt>
+                
+                <td style="width:100px;text-align:right; padding-left: 0px; padding-right: 5px;">
+                    <%= link_to image_tag('ukr.png', :class => "lang"), { :locale=>'ua' } %>
+                    &nbsp;
+                    <%= link_to image_tag('eng.png', :class => "lang"), { :locale=>'en' } %>
                 </td>
             </tr>
         </tbody>

@@ -18,14 +18,22 @@ require("channels")
 
 // inside app/frontend/js/bootstrap_js_files.js  
 import 'bootstrap'; 
-// import 'bootstrap/js/src/alert'  
-// import 'bootstrap/js/src/button'  
-// import 'bootstrap/js/src/carousel'  
-import 'bootstrap/js/src/collapse'  
-import 'bootstrap/js/src/dropdown'  
-// import 'bootstrap/js/src/modal'  
-// import 'bootstrap/js/src/popover'  
-import 'bootstrap/js/src/scrollspy'  
-// import 'bootstrap/js/src/tab'  
-// import 'bootstrap/js/src/toast'  
-// import 'bootstrap/js/src/tooltip'  
+ 
+//= require jquery
+//= require jquery_ujs
+//= require_tree .
+
+//= require turbolinks
+//= require bootstrap
+//= require popper
+//= require bootstrap-sprockets
+
+$(document).ready(function(){
+    $('.navbar .dropdown').hover(function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+    }, function() {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp()
+    });
+});
+
+
