@@ -1,34 +1,45 @@
-<td class="cell4logo" id="header">
-    <table class="logotable" cellspacing="0">
-        <tbody>
-            <tr>
-                <td class="cellimage" align="center">
-                    <img class="image" src="<%= asset_path('math.png') %>" style="margin-top:-3px;">
-                </td>
-                <td>
-                    <h2 id="confname" style="font-size: 15px; margin-right: 5%;">
-                        <span id="seminar">
-                            <%= I18n.t('bottom-top.international-scient-conf') %>
-                        </span>
-                        <br>
-                        <span id="seminarname">
-                            "<%= I18n.t('bottom-top.seminarname') %>"
-                        </span>
-                        <br>
-                        <%= I18n.t('bottom-top.dedicated_to') %>
-                        <br>
-                        <%= I18n.t('bottom-top.chair') %>
-                        <br>
-                        <%= I18n.t('bottom-top.inform_technologies') %>
-                    </h2>
-                </td>
+<td class="cell4logo" id="header" style="position: sticky;">
+  <table class="logotable" cellspacing="0">
+    <tbody>
+      <tr>
+        <!--
+        <td class="cellimage" align="center">
+          <img class="image" src="<%= asset_path('math.png') %>" style="margin-top:-3px;">
+        </td>
+        -->
+        <td>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding:0; display: inline-block;">
+            <div class="container-fluid" style="background-color: white;">
+    
+              <a style="color:black; background-color:white; border-color:white; text-decoration:none;" class="btn btn-primary" href="#">
+                <%= I18n.t('navbar.main_page') %>
+              </a>
+
+              <a style="color:black; text-decoration:none; background-color:white; border-color:white;" class="btn btn-primary" href="#">
+                Напрямки роботи
+              </a><!--Important dates -->
+
+              <a style="color:black; text-decoration:none; background-color:white; border-color:white;" class="btn btn-primary" href="#">
+                Науковий комітет
+              </a>
+
+              <a style="color:black; text-decoration:none; background-color:white; border-color:white;" class="btn btn-primary" href="#">
+                Організаційний комітет
+              </a>
+
+              <a style="color:black; text-decoration:none; background-color:white; border-color:white;" class="btn btn-primary" href="#">
+                Формат конференції і доповідей
+              </a>
+            </div>
+          </nav>
+        </td>
                 
-                <td style="width:100px;text-align:right; padding-left: 0px; padding-right: 5px;">
-                    <%= link_to image_tag('ukr.png', :class => "lang"), { :locale=>'ua' } %>
-                    &nbsp;
-                    <%= link_to image_tag('eng.png', :class => "lang"), { :locale=>'en' } %>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+        <td style="width:100px;text-align:right; padding-left: 0px; padding-right: 5px;">
+          <%= link_to image_tag('ukr.png', :class => "lang"), { :locale=>'ua' } %>
+          &nbsp;
+          <%= link_to image_tag('eng.png', :class => "lang"), { :locale=>'en' } %>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </td>

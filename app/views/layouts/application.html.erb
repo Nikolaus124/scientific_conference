@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--Translations for HEADER -->
     <title>ScientificConference</title>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -10,25 +11,30 @@
   </head>
 
   <body>
+    
+    <section>
+      <%= render :partial => 'shared/header' %>
+    </section>
+
+    <section class="description-main-section">
+      <%= render :partial => 'shared/description' %>
+    </section>
+
+
+
+
     <table id="wrapper" cellspacing="0" cellpadding="0">
       <tbody>
+
         <tr>
           <%= render :partial => 'shared/header' %>
         </tr>
-
-        <tr style="background-color:#2b0072;">
-          <td class="bluerow">
-            <%= render :partial => 'shared/navbar' %>
-          </td>
-        </tr>
-
+        
         <tr>
           <td class="cell4logo" valign="top">
             <table cellspacing="5" cellpadding="0" id="main">
               <tbody>
                 <tr>
-                  <%= render :partial => 'shared/menu' %>
-
                   <td valign="top">
                     <%= yield %>
                   </td>
