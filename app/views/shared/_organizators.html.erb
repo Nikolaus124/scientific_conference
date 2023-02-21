@@ -1,0 +1,18 @@
+<div class="organizators">
+    <h2 class="header">Організатори</h2>
+
+    <div id="1">Div 1<button class="remove" id="1">Remove</button></div>
+    <div id="2">Div 2<button class="remove" id="2">Remove</button></div>
+    <div id="3">Div 3<button class="remove" id="3">Remove</button></div>
+    <div id="4">Div 4<button class="remove" id="4">Remove</button></div>
+</div>  
+
+
+
+
+<script>
+    $('.remove').click(function() {
+    var removed = $(this).attr('id');
+    $('div#'+removed).remove();
+});
+</script>
