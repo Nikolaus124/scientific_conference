@@ -352,10 +352,15 @@ h1 {
     text-decoration: underline;
 }
 
+.conference-section {
+    width:100%;
+    height: 120%;
+}
+
 .conference-details {
     font-family: 'IBM Plex Sans', sans-serif; 
     width: 100%; 
-    height:80%; 
+    height:120%; 
     left: 0; 
     background:#665b5b; 
     position: absolute;
@@ -437,13 +442,13 @@ h1 {
 
 .format-section {
     width:100%;
-    height: 80%;
+    height: 155%;
 }
 
 .format {
     font-family: 'IBM Plex Sans', sans-serif; 
     width: 100%; 
-    height:90%; 
+    height:155%; 
     left: 0; 
     background: #6A6A6A; 
     position: absolute;
@@ -452,19 +457,140 @@ h1 {
 .format .header {
     color: black;
     text-align: center;
-    padding-top:20px;
+    padding-top:30px;
     font-size: 4em;
 }
 
+.format .header span {
+    border-bottom: 7px solid #EA580C;
+}
+
 .format .conference {
-    width: 30%;
+    margin-right: 10%;
+    right: 0;
+    position: absolute;
+    width: 32%;
     height: 45%;
-    background-color: white;
-    margin-top: 5%;
-    margin-left: 10%;
+    display: inline-block; 
 }
 
 .format .conference .header{
     text-align: center;
     font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.format .conference .header span {
+    border-bottom: 5px solid #EA580C;
+}
+
+.format .report {
+    position: absolute;
+    left: 0;
+    width: 32%;
+    height: 45%;
+    margin-left: 8%;
+    display: inline-block;
+}
+
+.format .report .header {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.format .report .header span {
+    border-bottom: 5px solid #EA580C;
+}
+
+.footer-section {
+    width:100%;
+    height: 80%;
+}
+
+.footer {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    width: 100%; 
+    height:80%; 
+    left: 0; 
+    background: black; 
+    position: absolute;
+}
+
+.footer .contacts {
+    margin-left: 10%;
+    margin-top: 3%;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 30%;
+}
+
+.footer .contacts .imagechnu {
+    width: 140px;
+    height: 140px;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+.footer .contacts p {
+    color:white;
+    
+    font-size: 1.7em;
+    margin-bottom: 0em;
+}
+
+.footer .contacts .address .image{
+    width: 15px;
+    height: 25px;
+    margin-bottom: 0;
+}
+
+.footer .contacts .phone .image{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
+}
+
+.footer .contacts .email .image{
+    width: 25px;
+    height: 25px;
+}
+
+.footer .contacts .site .image{
+    width: 25px;
+    height: 25px;
+}
+
+.footer .bottom-menu {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    margin-right: 25%;
+    margin-top: 150px;
+    width: 35%;
+}
+
+.footer .bottom-menu .bottom-nav {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+}
+
+.footer .bottom-menu .social {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
+
+.footer .bottom-menu .social .image-fb {
+    width: 40px;
+    height: 40px;
+}
+
+.footer .bottom-menu .social .image-inst {
+    width: 32px;
+    height: 32px;
 }

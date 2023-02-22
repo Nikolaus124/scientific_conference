@@ -33,34 +33,17 @@
       <%= render :partial => 'shared/format' %>
     </section>
     
-
-    <table id="wrapper" cellspacing="0" cellpadding="0">
-      <tbody>
-
-        <tr>
-          <%= render :partial => 'shared/header' %>
-        </tr>
+    <section class="footer-section" id="footer">
+      <%= render :partial => 'shared/footer' %>
+    </section>
+    
+    <%= render :partial => 'shared/header' %>
         
-        <tr>
-          <td class="cell4logo" valign="top">
-            <table cellspacing="5" cellpadding="0" id="main">
-              <tbody>
-                <tr>
-                  <td valign="top">
-                    <%= yield %>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
+        
+        
+    <%= yield %>
 
-        <tr>
-          <td class="bluerow" style="background-color:#2b0072;" id="footer">
-            <h3><%= I18n.t('bottom-row') %></h3>
-          </td>
-        </tr>
-      </tbody>
-    </table> 
+
+      
   </body>
 </html>
