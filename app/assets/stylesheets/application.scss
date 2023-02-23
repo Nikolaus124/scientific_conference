@@ -25,7 +25,7 @@
     color: black;
     padding: 0;
     background-color: #efefef;
-    background: url('background.jpeg') no-repeat center center fixed;
+    /*background: url('background.jpeg') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -129,13 +129,12 @@ h2 {
     width: 100%;
   }
 
-.cellimage {
-    width: 200px;
-}
-
-.image {
-    margin-top: 10px; 
+.cellimage .image {
+    width: 90px;
+    height: 90px;
+    margin-top: 5px; 
     margin-bottom: 5px;
+    margin-left: 15%;
 }
 
 #confname {
@@ -327,7 +326,7 @@ h1 {
     background: url('mathfacult.jpg') no-repeat;
     background-size: cover;
     width:100%;
-    height: 100%;
+    height: 600px;
 }
 
 .cnhudescr {
@@ -354,13 +353,13 @@ h1 {
 
 .conference-section {
     width:100%;
-    height: 120%;
+    height: 650px;
 }
 
 .conference-details {
     font-family: 'IBM Plex Sans', sans-serif; 
     width: 100%; 
-    height:120%; 
+    height:850px; 
     left: 0; 
     background:#665b5b; 
     position: absolute;
@@ -392,12 +391,12 @@ h1 {
     pointer-events: none;
     text-decoration: none;
     padding-right: 10px;
+    margin-left: 2%;
     width: 30%;
     
 }
 
 .conference-details .place-date {
-    margin-left: 35px;
     font-size: 2em;
     margin-top:31px; 
     padding-left: 10px;
@@ -408,6 +407,7 @@ h1 {
 .conference-details .place-details {
     background: #0080FF; 
     color: white;
+    font-size: 0.9em;
     padding-top:10px;
     padding-bottom: 8px;
     padding-left: 10px;
@@ -417,38 +417,33 @@ h1 {
 .organizators {
     font-family: 'IBM Plex Sans', sans-serif; 
     width: 100%; 
-    height:80%; 
+    height:2150px; 
     left: 0; 
     background:#eee; 
     position: absolute;
 }
 
-.conference-section {
-    width:100%;
-    height: 80%;
-}
-
 .organizators-section {
     width:100%;
-    height: 80%;
+    height: 2150px;
 }
 
 .organizators .header{
     color: #0080FF;
     text-align: center;
-    padding-top:20px;
+    padding-top:10px;
     font-size: 3.5em;
 }
 
 .format-section {
     width:100%;
-    height: 155%;
+    height: 780px;
 }
 
 .format {
     font-family: 'IBM Plex Sans', sans-serif; 
     width: 100%; 
-    height:155%; 
+    height:780px; 
     left: 0; 
     background: #6A6A6A; 
     position: absolute;
@@ -507,13 +502,13 @@ h1 {
 
 .footer-section {
     width:100%;
-    height: 80%;
+    height: 500px;
 }
 
 .footer {
     font-family: 'IBM Plex Sans', sans-serif; 
     width: 100%; 
-    height:80%; 
+    height:500px; 
     left: 0; 
     background: black; 
     position: absolute;
@@ -568,7 +563,7 @@ h1 {
     position: absolute;
     right: 0;
     display: inline-block;
-    margin-right: 25%;
+    margin-right: 20%;
     margin-top: 150px;
     width: 35%;
 }
@@ -593,4 +588,8 @@ h1 {
 .footer .bottom-menu .social .image-inst {
     width: 32px;
     height: 32px;
+}
+
+.panel-link:hover{
+    color: #00FF00;
 }
