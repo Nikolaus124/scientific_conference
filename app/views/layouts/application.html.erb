@@ -15,35 +15,13 @@
     <section>
       <%= render :partial => 'shared/header' %>
     </section>
+              
+    <%= yield %>
 
-    <section class="description-main-section" style="margin-top: 85px;">
-      <%= render :partial => 'shared/description' %>
-    </section>
-
-    <section class="conference-section" id="conference">
-      <%= render :partial => 'shared/conference' %>
-    </section>
-
-    
-    <section class="organizators-section" id="organizators">
-      <%= render :partial => 'shared/organizators' %>
-    </section>
-
-    <section class="format-section" id="format">
-      <%= render :partial => 'shared/format' %>
-    </section>
-    
     <section class="footer-section" id="footer">
       <%= render :partial => 'shared/footer' %>
     </section>
     
-    <%= render :partial => 'shared/header' %>
-        
-        
-        
-    <%= yield %>
-
-
-      
+    <%= render :partial => 'shared/header' %>  
   </body>
 </html>

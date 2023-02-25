@@ -1,50 +1,42 @@
-<h1>
-    <span class="title">Учасники</span>
-</h1>
+<div style="margin-top: 120px; font-family: 'IBM Plex Sans', sans-serif; padding-bottom: 50px;">
+  
+  <h1 style="text-align: center;">
+      Зареєстровано учасників: <%= @count %>
+  </h1>
 
-<% flash.each do |type, msg| %>
-  <div class="alert alert-info">
-    <%= msg %>
-  </div>
-<% end %>
+  <div class="list-group" style="width:50%; margin-left:25%; pointer-events: none;">
+        <a href="#" style="text-decoration: none; color: black;" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1" style="font-size: 17px;">Ольга Василівна Мартинюк</h4>
+                <small class="font-monospace" style="font-size: 16px;">Професор</small>
+            </div>
+            <p class="mb-1" style="font-size: 15px; width:70%">Національний технічний університет України «Київський політехнічний інститут імені Ігоря Сікорського», УКРАЇНА</p>
+            <br>
+            <p style="font-size: 16px; width:70%; margin-bottom: 0px;"><b>Про майже-періодичні розв'язки нелінійних зліченних систем диференціальних рівнянь, визначених на нескінченновимірних торах</b></p>
+        </a>
 
-<p>
-    <h1>
-        Кількість учасників: <%= @count %>
-    </h1>
+        <a href="#" style="text-decoration: none; color: black;" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Олена Карлова</h5>
+                <small class="font-monospace" style="font-size: 12px;">Заступник</small>
+            </div>
+            <p class="mb-1">заступниця деканки з наукової роботи та міжнародних зв’язків</p>
+        </a>
 
-    <h1>
-        <%= link_to "Зареєструватись", new_member_path, :class => "link-primary" %>
-    </h1>
-</p>
+        <a href="#" style="text-decoration: none; color: black;" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Анастасія Юрійчук</h5>
+                <small class="font-monospace" style="font-size: 12px;">Заступник</small>
+            </div>
+            <p class="mb-1">заступниця деканки з інформаційних та медіа-технологій</p>
+        </a>
 
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col"></th>
-      <th scope="col">УЧАСНИК</th>
-      <th scope="col">ВЧЕНЕ ЗВАННЯ ТА УСТАНОВА</th>
-      <th scope="col">НАЗВА ДОПОВІДІ</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+        <a href="#" style="text-decoration: none; color: black;" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Члени оргкомітету</h5>
+            </div>
+            <p class="mb-1" style="font-size: 12px;">Ярослав Бігун, Руслана Колісник, Владислав Літовченко, Сергій Мартинюк, Володимир Михайлюк, <br/> Ігор Черевко, ………………………………</p>
+        </a>
+    </div>
+
+</div>

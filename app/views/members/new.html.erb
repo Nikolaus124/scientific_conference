@@ -1,73 +1,98 @@
-<h1>
-    <span class="title">Реєстрація учасників</span>
-</h1>
+<div style="margin-top: 110px; font-family: 'IBM Plex Sans', sans-serif;">
+<div class="container mt-5 mb-5 d-flex justify-content-center">
+    <div class="card px-1 py-4">
+        <div class="card-body">
+            <h4 class="card-title mb-3" style="font-size: 16px; text-align:center">Реєстрація учасників</h4>
+            
+            <% flash.each do |type, msg| %>
+              <div class="alert alert-info" style="font-size: 16px; text-align:center;">
+                <%= msg %>
+              </div>
+            <% end %>
 
-<br>
+            <h6 class="information mt-4" style="font-size: 14px; padding-bottom: 5px;">Будь ласка, надайте наступну інформацію про учасника</h6>
+            
+            <%= form_with model: @member do |form| %>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">    
+                    <%= form.text_field :last_name, :class=>"form-control", :placeholder => "Прізвище", :required => true, :style => "font-size: 15px;" %>
+                    <% @member.errors.full_messages_for(:last_name).each do |message| %>
+                      <div><%= message %></div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
 
-<% flash.each do |type, msg| %>
-  <div class="alert alert-info">
-    <%= msg %>
-  </div>
-<% end %>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <%= form.text_field :first_name, :class=>"form-control", :placeholder => "Ім'я", :required => true, :style => "font-size: 15px;" %>
+                    <% @member.errors.full_messages_for(:first_name).each do |message| %>
+                      <div><%= message %></div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
 
-<%= form_with model: @member do |form| %>
-  <div class="form-group">
-    <%= form.label "Прізвище" %><br>
-    <%= form.text_field :last_name, :class=>"form-control" %>
-    <% @member.errors.full_messages_for(:last_name).each do |message| %>
-      <div><%= message %></div>
-    <% end %>
-  </div>
-  <br>
-  <div class="form-group">
-    <%= form.label "Ім'я" %><br>
-    <%= form.text_field :first_name, :class=>"form-control" %>
-    <% @member.errors.full_messages_for(:first_name).each do |message| %>
-      <div><%= message %></div>
-    <% end %>
-  </div>
-  <br>
-  <div class="form-group">
-    <%= form.label "По батькові" %><br>
-    <%= form.text_field :surname, :class=>"form-control" %>
-    <% @member.errors.full_messages_for(:surname).each do |message| %>
-      <div><%= message %></div>
-    <% end %>
-  </div>
-  <br>
-  <div class="form-group">
-    <%= form.label "Вчене звання" %><br>
-    <%= form.text_field :academic_status, :class=>"form-control" %>
-    <% @member.errors.full_messages_for(:academic_status).each do |message| %>
-      <div><%= message %></div>
-    <% end %>
-  </div>
-  <br>
-  <div class="form-group">
-    <%= form.label "Установа" %><br>
-    <%= form.text_field :institution, :class=>"form-control" %>
-    <% @member.errors.full_messages_for(:institution).each do |message| %>
-      <div><%= message %></div>
-    <% end %>
-  </div>
-  <br>
-  <div class="form-group">
-    <%= form.label "Назва доповіді" %><br>
-    <%= form.text_area :report_title, :class=>"form-control" %>
-    <% @member.errors.full_messages_for(:report_title).each do |message| %>
-      <div><%= message %></div>
-    <% end %>
-  </div>
-  <br>
-  <div class="form-group">
-    <%= form.label "Електронна пошта" %><br>
-    <%= form.text_field :email, :class=>"form-control" %>
-    <% @member.errors.full_messages_for(:email).each do |message| %>
-      <div><%= message %></div>
-    <% end %>
-  </div>
-  <br>
-  <div>
-    <%= form.submit 'Зареєструватись', :class=>"btn btn-dark"%>
-  </div>
-<% end %>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <%= form.text_field :surname, :class=>"form-control", :placeholder => "По батькові", :style => "font-size: 15px;" %>
+                    <% @member.errors.full_messages_for(:surname).each do |message| %>
+                      <div><%= message %></div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <%= form.text_field :academic_status, :class=>"form-control", :placeholder => "Вчене звання", :style => "font-size: 15px;" %>
+                    <% @member.errors.full_messages_for(:academic_status).each do |message| %>
+                      <div><%= message %></div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <%= form.text_field :institution, :class=>"form-control", :placeholder => "Установа", :required => true, :style => "font-size: 15px;" %>
+                    <% @member.errors.full_messages_for(:institution).each do |message| %>
+                      <div><%= message %></div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <%= form.text_area :report_title, :class=>"form-control", :placeholder => "Назва доповіді", :required => true, :style => "font-size: 15px;" %>
+                    <% @member.errors.full_messages_for(:report_title).each do |message| %>
+                      <div><%= message %></div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <%= form.text_field :email, :class=>"form-control", :placeholder => "Електронна пошта", :required => true, :style => "font-size: 15px;" %>
+                    <% @member.errors.full_messages_for(:email).each do |message| %>
+                      <div><%= message %></div>
+                    <% end %>
+                  </div>
+                </div>
+              </div>
+            
+              <%= form.submit 'Зареєструватись', :class=>"btn btn-primary btn-block confirm-button", :style => "font-size: 16px; height:40px" %>
+            <% end %>
+        </div>
+    </div>
+</div>
+</div>
