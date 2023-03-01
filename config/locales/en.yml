@@ -1,30 +1,19 @@
 en:
-  bottom-top:
-    international-scient-conf: International scientific conference
-    seminarname: Applied mathematics and information technologies
-    dedicated_to: dedicated to the 60th anniversary
-    chair: department of applied mathematics
-    inform_technologies: and information technologies
-  navbar:
-    main_page: MAIN
-    committees: 
-      header: COMMITTEE
-      scientific: SCIENTIFIC 
-      inform_technologies: INFORMATION TECHNOLOGIES
-      organizational: ORGANIZATIONAL 
-      members: PARTICIPANTS
-    details:
-      header: CONFERENCE DETAILS
-      formation: FORMATION AND SUBMISSION OF WORKS
-      conference_program: CONFERENCE PROGRAM
-      materials: MATERIALS OF THE CONFERENCE
-      contacts: CONTACTS
-  menu_bar:
-    bottom-bar:
-      title: USEFUL LINKS
-      chnu-site: Chernivtsi National University named after Yury Fedkovich
-      fmi-site: Faculty of Mathematics and computer science
-      apply-math-site: Department of Applied Mathematics and information technologies
-      buk-national-journal: Bukovynsky is a mathematician magazine
-      math-modeling: Mathematical Modeling and Computing
-  bottom-row: © 2022, Department of Applied Mathematics and Information Technologies
+  header:
+    conference: Conference
+    organizers: Organizers
+    sections: Sections
+    participants: Participants
+    registration: Registration
+  description:
+    chnu: Yuri Fedkovich Chernivtsi National University
+    facult: Faculty of Mathematics and Informatics
+    date: September 21-23, 2023
+    conference: INTERNATIONAL SCIENTIFIC CONFERENCE
+    55-years: DEDICATED TO THE 55TH ANNIVERSARY
+    mathinf: OF THE FACULTY MATHEMATICS AND INFORMATICS
+
+     
+
+     
+     

@@ -333,12 +333,14 @@ h1 {
 .cnhudescr {
     text-align: center;
     font-size: 3em;
+    font-weight: bold;
     color: white;
-    margin-top:100px;
+    margin-top:80px;
     font-family: "IBM Plex Sans", sans-serif; 
 }
 
 .conference-name {
+    font-weight: bold;
     text-align: center;
     font-size: 3.5em;
     color: white;
@@ -376,14 +378,6 @@ h1 {
 .conference-details .lists-part{
     display:flex;
     justify-content:space-between;
-}
-
-.conference-details .conference-ways {
-    font-size: 2em; 
-    color: black; 
-    padding-top:10px;
-    width: 30%;
-    margin-right: 30px;
 }
 
 .conference-details .important-dates {
@@ -426,7 +420,7 @@ h1 {
 
 .organizators-section {
     width:100%;
-    height: 2150px;
+    min-height: 2150px;
 }
 
 .organizators .header{
@@ -438,68 +432,32 @@ h1 {
 
 .format-section {
     width:100%;
-    height: 780px;
+    height: 600px;
 }
 
 .format {
     font-family: 'IBM Plex Sans', sans-serif; 
     width: 100%; 
-    height:780px; 
+    height:600px; 
     left: 0; 
-    background: #6A6A6A; 
+    background: #444444; 
     position: absolute;
 }
 
 .format .header {
-    color: black;
+    color: white;
     text-align: center;
     padding-top:30px;
     font-size: 4em;
 }
 
-.format .header span {
-    border-bottom: 7px solid #EA580C;
+.format .conference-ways {
+    font-size: 2.5em;  
+    padding-top:10px;
+    width: 45%;
+    margin-left: 30%;
 }
 
-.format .conference {
-    margin-right: 10%;
-    right: 0;
-    position: absolute;
-    width: 32%;
-    height: 45%;
-    display: inline-block; 
-}
-
-.format .conference .header{
-    text-align: center;
-    font-size: 3em;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.format .conference .header span {
-    border-bottom: 5px solid #EA580C;
-}
-
-.format .report {
-    position: absolute;
-    left: 0;
-    width: 32%;
-    height: 45%;
-    margin-left: 8%;
-    display: inline-block;
-}
-
-.format .report .header {
-    text-align: center;
-    font-size: 3em;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.format .report .header span {
-    border-bottom: 5px solid #EA580C;
-}
 
 .footer-section {
     width:100%;
@@ -576,6 +534,7 @@ h1 {
 }
 
 .footer .bottom-menu .social {
+    margin-top: 10px;
     position: absolute;
     right: 0;
     display: inline-block;

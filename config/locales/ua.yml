@@ -1,31 +1,23 @@
 ua:
-  bottom-top:
-    international-scient-conf: Міжнародна наукова конференція
-    seminarname: Прикладна математика та інформаційні технології
-    dedicated_to: присвячена 60-річчю
-    chair: кафедри прикладної математики
-    inform_technologies: та інформаційних технологій
-  navbar:
-    main_page: ГОЛОВНА
-    committees: 
-      header: КОМІТЕТ
-      scientific: НАУКОВИЙ 
-      inform_technologies: ІНФОРМАЦІЙНИХ ТЕХНОЛОГІЙ
-      organizational: ОРГАНІЗАЦІЙНИЙ
-      members: УЧАСНИКИ
-    details:
-      header: ДЕТАЛІ КОНФЕРЕНЦІЇ
-      formation: ОФОРМЛЕННЯ ТА ПОДАЧА ПРАЦЬ
-      conference_program: ПРОГРАМА КОНФЕРЕНЦІЇ
-      materials: МАТЕРIАЛИ КОНФЕРЕНЦІЇ
-      contacts: КОНТАКТИ
-  menu_bar:
-    top-bar:
-    bottom-bar:
-      title: КОРИСНІ ПОСИЛАННЯ
-      chnu-site: Чернівецький національний університет імені Юрія Федьковича
-      fmi-site: Факультет математики та інформатики
-      apply-math-site: Кафедра прикладної математики та інформаційних технологій
-      buk-national-journal: Буковинський математичний журнал
-      math-modeling: Mathematical Modeling and Computing
-  bottom-row: © 2022, Кафедра прикладної математики та інформаційних технологій
+  header:
+    conference: Конференція
+    organizers: Організатори
+    sections: Секції
+    participants: Учасники
+    registration: Реєстрація
+  description:
+    chnu: Чернівецький національний університет імені Юрія Федьковича
+    facult: Факультет математики та інформатики
+    date: 21-23 вересня 2023 року
+    conference: МІЖНАРОДНА НАУКОВА КОНФЕРЕНЦІЯ
+    55-years: ПРИСВ'ЯЧЕНА 55-РІЧЧЮ ФАКУЛЬТЕТУ
+    mathinf: МАТЕМАТИКИ ТА ІНФОРМАТИКИ
+
+    
+     
+
+     
+
+     
+
+     

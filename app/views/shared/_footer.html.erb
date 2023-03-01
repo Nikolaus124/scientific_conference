@@ -46,11 +46,31 @@
 
     <div class="bottom-menu">
         <div class="bottom-nav">
-            <h1 style="color:white; font-size:2.5em;">Конференція</h1>
-            <h1 style="color:white; font-size:2.5em;">Організатори</h1>
-            <h1 style="color:white; font-size:2.5em;">Секції</h1>
-            <h1 style="color:white; font-size:2.5em;">Учасники</h1>
-            <h1 style="color:white; font-size:2.5em;">Реєстрація</h1>
+            <h1 style="color:white; font-size:2.5em;">
+                <a style="color:white; text-decoration: none;" href="/#conference">
+                    <%= I18n.t('header.conference') %>
+                </a>
+            </h1>
+
+            <h1 style="color:white; font-size:2.5em;">
+                <a style="color:white; text-decoration: none;" href="/#organizators">
+                    <%= I18n.t('header.organizers') %>
+                </a>
+            </h1>
+
+            <h1 style="color:white; font-size:2.5em;">
+                <a style="color:white; text-decoration: none;" href="/#format">
+                    <%= I18n.t('header.sections') %>
+                </a>
+            </h1>
+
+            <h1 style="color:white; font-size:2.5em;">
+                <%= link_to I18n.t('header.participants'), members_path, :style=>"color:white; text-decoration: none;" %>
+            </h1>
+
+            <h1 style="color:white; font-size:2.5em;">
+                <%= link_to I18n.t('header.registration'), new_member_path, :style=>"color:white; text-decoration: none;" %>
+            </h1>
     
             <h2 style="color:white; font-size:1.5em; margin-top:45px">© 2023</h2>
         </div>
