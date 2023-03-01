@@ -25,7 +25,6 @@
     color: black;
     padding: 0;
     background-color: #efefef;
-    /*background: url('background.jpeg') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,45 +49,6 @@ section {
     height: 100%;
 }
 
-table {
-    -webkit-border-horizontal-spacing: 0px;
-    -webkit-border-vertical-spacing: 0px;
-    border: 0;
-}
-
-table {
-    display: table;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-color: white;
-    border: 0;
-}
-
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: white;
-}
-
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: white;
-}
-
-.bluerow {
-    color: #2b0072;
-    border: 1px solid white;
-    height: 42px;
-    text-align: center;
-    background-color:#2b0072;
-}
-
-td {
-    display: table-cell;
-    vertical-align: inherit;
-}
-
 h2 {
     display: block;
     font-size: 1.5em;
@@ -97,11 +57,6 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-
-.cell4logo {
-    background-color: white;
-    text-align: center;
 }
 
 #header {
@@ -136,145 +91,6 @@ h2 {
     margin-top: 5px; 
     margin-bottom: 5px;
     margin-left: 15%;
-}
-
-#confname {
-    font-style: normal;
-    font-size: 18px;
-    letter-spacing: 1px;
-    /* text-transform: uppercase; */
-    text-align: center;
-    color: gray;
-    line-height: 1.2em;
-}
-
-#seminar {
-    font-size: 15px;
-}
-
-#seminarname {
-    font-size: 18px;
-    color: #000;
-}
-
-#rightlogoimage {
-    /* margin-top: 4px; */
-    /* border-radius: 100px; */
-    margin-left: 0;
-    margin-right: 30px;
-    
-}
-
-.bluerow {
-    color: white;
-    border: 1px solid white;
-    height: 42px;
-    text-align: center;
-    background-color: #2b0072;
-}
-
-#main {
-    height: 100%;
-    border: 0;
-    width: 100%;
-}
-
-#menuarea {
-    width: 313px;
-    border-right: 1px solid #292b2c;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-div {
-    display: block;
-}
-
-.urbangreymenu {
-    width: 290px;
-    /* margin-top: -13px; */
-    margin-left: 8px;
-    margin-top: -10px;
-    margin-bottom: 5px;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-.urbangreymenu .headerbar {
-    font: bold 16px "Open Sans";
-    color: white;
-    background: #292b2c;
-    margin-bottom: 0;
-    text-transform: uppercase;
-    padding: 7px 0 7px 0px;
-    font-style: normal;
-    letter-spacing: 2px;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-.urbangreymenu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 0;
-    text-align: left;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-li {
-    text-align: -webkit-match-parent;
-}
-
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.urbangreymenu ul li a {
-    font: normal 13px 'Open Sans';
-    color: black;
-    background: #F1F1F1;
-    display: block;
-    padding: 5px 0;
-    line-height: 17px;
-    letter-spacing: 1px;
-    padding-left: 11px;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: bold;
-}
-
-#menu2 {
-    margin-top: 10px;
 }
 
 h1 {
