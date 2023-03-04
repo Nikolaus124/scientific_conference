@@ -3,15 +3,17 @@
 
         <img class="imagechnu" src="<%= asset_path('chnu.png') %>" >
 
-        <h1 style="color:white; font-size:2.5em;">Контактні дані</h1>
+        <h1 style="color:white; font-size:2.5em;"><%= I18n.t('footer.contacts') %></h1>
 
         <div class="address">
-            <p> 
+            <p>
+            <a target="_blank" style="color:white; text-decoration: none;" href="https://www.google.com/maps/place/Faculty+of+Mathematics+and+Computer+Science/@48.2932673,25.929342,15z/data=!4m14!1m7!3m6!1s0x4734089eaf308e41:0x974c4f797f290a9b!2sFaculty+of+Mathematics+and+Computer+Science!8m2!3d48.2932673!4d25.929342!16s%2Fg%2F11bbxqg2xt!3m5!1s0x4734089eaf308e41:0x974c4f797f290a9b!8m2!3d48.2932673!4d25.929342!16s%2Fg%2F11bbxqg2xt"> 
                 <img class="image" src="<%= asset_path('map.jpg') %>" >
                  
-                &nbsp 58012, Україна, м. Чернівці, 
+                &nbsp  <%= I18n.t('footer.address.first') %>
                  <br/> 
-                &nbsp &nbsp &nbsp вул. Університетська, 28, к. 1.
+                &nbsp &nbsp &nbsp <%= I18n.t('footer.address.second') %>
+            </a>
             </p>
         </div>
 
@@ -76,8 +78,12 @@
         </div>
 
         <div class="social">
-            <img class="image-fb" src="<%= asset_path('facebook.png') %>" >
+            <a target="_blank" style="color:white; text-decoration: none;" href="https://www.facebook.com/fmi.org.ua?mibextid=ZbWKwL"> 
+                <img class="image-fb" src="<%= asset_path('facebook.png') %>" >
+            </a>
             &nbsp
-            <img class="image-inst" src="<%= asset_path('instagram.png') %>" >
+            <a target="_blank" style="color:white; text-decoration: none;" href="https://instagram.com/pmit_chnu?igshid=OTJlNzQ0NWM="> 
+                <img class="image-inst" src="<%= asset_path('instagram.png') %>" >
+            </a>
         </div>
 </div>  

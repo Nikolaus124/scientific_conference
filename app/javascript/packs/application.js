@@ -21,12 +21,14 @@ import 'bootstrap';
  
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
 
 //= require turbolinks
 //= require bootstrap
+//= require bootstrap.min
 //= require popper
 //= require bootstrap-sprockets
+//= require npm
+//= require_tree .
 
 $(document).ready(function(){
     $('.navbar .dropdown').hover(function() {

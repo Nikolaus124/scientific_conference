@@ -12,8 +12,32 @@ en:
     conference: INTERNATIONAL SCIENTIFIC CONFERENCE
     55-years: DEDICATED TO THE 55TH ANNIVERSARY
     mathinf: OF THE FACULTY MATHEMATICS AND INFORMATICS
-
-     
+  conference:
+    header: General information
+    languages: 'Working languages of the conference: Ukrainian and English'
+    place: 'Venue: Chernivtsi National University: Chernivtsi, str. 28 University Street, Faculty of Mathematics and Informatics.'     
+    opening: 'Opening of the conference: 10 a.m. September 21, 2023'
+    travel: Excursions and cultural events are planned for Saturday, September 23, in the city of Vyzhnytsia and the Nimchych Pass (80 km from Chernivtsi).
+    important-dates:
+      header: Important dates
+      reg-start: 
+        date: ○ May 1, 2023.
+        event: Start of registration for participation in the conference on the website www……….
+      reg-end:
+        date: ○ August 24, 2023
+        event: End of registration and reception of materials
+      sending-invitations:
+        date: ○ from August 25, 2023
+        event: Sending invitations
+      reg-conf:
+        date: ○ September 21, 2023 from 8 a.m. in the auditorium
+        event: Registration of participants who will arrive at the conference
+  footer:
+    contacts: Contacts
+    address:
+      first: 58012, Ukraine, Chernivtsi,
+      second: St. 28 University Street, building 1.
+      
 
      
      

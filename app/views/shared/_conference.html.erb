@@ -1,67 +1,72 @@
 <div class="conference-details">
         
-    <h2 class="header">Загальна інформація</h2>
+    <h2 class="header"><%= I18n.t('conference.header') %></h2>
 
     <div class="lists-part">
 
+        <div class="place-date">
+            <div class="rounded place-details">
+                    <img style="width: 20px; height: 20px; margin-bottom: 5px;" src="<%= asset_path('web.png') %>" >
+                    <%= I18n.t('conference.languages') %>
+            </div>
+
+            <br/> 
+        
+            <div class="rounded place-details">
+                <img style="width: 15px; height: 20px; margin-top: 0;" src="<%= asset_path('map.jpg') %>" >
+                <%= I18n.t('conference.place') %>
+            </div>
+
+            <br/>
+        
+            <div class="rounded place-details">
+                <img style="width: 20px; height: 20px; margin-top: 0;" src="<%= asset_path('door.png') %>" >
+                <%= I18n.t('conference.opening') %>
+            </div>
+
+            <br/>
+
+            <div class="rounded place-details">
+                <img style="width: 20px; height: 20px; margin-top: 0;" src="<%= asset_path('trekking.png') %>" >
+                <%= I18n.t('conference.travel') %>
+            </div>
+        </div>
+    
+
       <div class="important-dates">
         <div class="list-group">
-            <li li style="background: #0080FF; color: white; text-align:center;" class="list-group-item">Важливі дати</li>
+            <li style="color: white; text-align:center; font-size: 1.5em; background:black;" class="list-group-item"><%= I18n.t('conference.important-dates.header') %></li>
 
-            <a href="#" style="background: #0080FF; text-decoration: none; color: white;" class="list-group-item list-group-item-action flex-column align-items-start">
+            <a href="#" style="text-decoration: none; color: white;background:black;" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
-                    <h3 class="mb-1"><u>○ 1 травня 2023 р.</u></h3>
+                    <h3 class="mb-1"><u><%= I18n.t('conference.important-dates.reg-start.date') %></u></h3>
                 </div>
-                <p class="mb-1">Початок реєстрації для участі у конференції на сайті www……….</p>
+                <p class="mb-1"><%= I18n.t('conference.important-dates.reg-start.event') %></p>
             </a>
 
-            <a href="#" style=" background: #0080FF; text-decoration: none; color: white;" class="list-group-item list-group-item-action flex-column align-items-start">
+            <a href="#" style="text-decoration: none; color: white;background:black;" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
-                    <h4 class="mb-1">○ 24 серпня 2023 р.</h4>
+                    <h3 class="mb-1"><u><%= I18n.t('conference.important-dates.reg-end.date') %></u></h3>
                 </div>
-                <p class="mb-1">Закінчення реєстрації і прийому матеріалів</p>
+                <p class="mb-1"><%= I18n.t('conference.important-dates.reg-end.event') %></p>
             </a>
 
-            <a href="#"  style="background: #0080FF; text-decoration: none; color: white;" class="list-group-item list-group-item-action flex-column align-items-start">
+            <a href="#"  style="text-decoration: none; color: white;background:black;" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
-                    <h4 class="mb-1">○ з 25 серпня 2023 р.</h4>
+                    <h3 class="mb-1"><u><%= I18n.t('conference.important-dates.sending-invitations.date') %></u></h3>
                 </div>
-                <p class="mb-1">Розсилання запрошень</p>
+                <p class="mb-1"><%= I18n.t('conference.important-dates.sending-invitations.event') %></p>
             </a>
 
-            <a href="#" style="background: #0080FF; text-decoration: none; color: white;" class="list-group-item list-group-item-action flex-column align-items-start">
+            <a href="#" style="text-decoration: none; color: white;background:black;" class="list-group-item list-group-item-action flex-column align-items-start">
                 <div class="d-flex w-100 justify-content-between">
-                    <h4 class="mb-1">○ 21 вересня 2023 р. з 8 год. в ауд.</h4>
+                    <h3 class="mb-1"><u><%= I18n.t('conference.important-dates.reg-conf.date') %></u></h3>
                 </div>
-                <p class="mb-1">Реєстрація учасників, які прибудуть на конференцію</p>
+                <p class="mb-1"><%= I18n.t('conference.important-dates.reg-conf.event') %></p>
             </a>
         </div>
       </div>
 
-      <div class="place-date">
-        <div class="rounded place-details">
-            Робочі мови конференції: українська та англійська
-        </div>
-
-        <br/>
-        
-        <div class="rounded place-details">
-            Місце проведення: Чернівецький національний університет: м. Чернівці,
-            вул. Університетська, 28, факультет математики та інформатики.
-        </div>
-
-        <br/>
-        
-        <div class="rounded place-details">
-           Відкриття конференції: 10 год. ___21__ вересня 2023 року
-        </div>
-
-        <br/>
-
-        <div class="rounded place-details">
-           Екскурсії і культурні заходи заплановано на суботу __23_ вересня у м. Вижницю та перевал Німчич (80 км. від м. Чернівці).
-        </div>
-      </div>
     </div>
 
     <p style="opacity: 0.0; bottom:0; color:white; margin-bottom:0px; " id="organizators">Section</p>
